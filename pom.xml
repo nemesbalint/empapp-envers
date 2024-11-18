@@ -75,7 +75,15 @@
 			<artifactId>postgresql</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<artifactId>hibernate-envers</artifactId>
+			<groupId>org.hibernate.orm</groupId>
+		</dependency>
 	</dependencies>
 
 	<build>
